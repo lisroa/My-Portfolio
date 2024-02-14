@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio | Lis Roa Desarrolladora Web"
+    />
+    <meta name="robots" content="index,follow" />
+
+    <title>Lis Roa| Desarrolladora Web Front-End</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css" />
+    <link rel="stylesheet" href="./assets/stylesheet/index.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/tablet.css"
+      media="screen and (min-width: 760px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/desktop.css"
+      media="screen and (min-width: 980px)"
+    />
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/ae0fd6f99f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <div class="container--loader">
+      <div class="loader"></div>
+    </div>
+
+    <header class="header">
+      <img
+        src="./assets/images/logo-lr.png"
+        alt="Logo Portafolio"
+        class="logo__header"
+      />
+
+      <nav class="nav_menu not-active">
+        <a href="#home" class="active">Home</a>
+        <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+        <a href="#habilidades" data-section="menu" data-value="item3"
+          >Habilidades</a
+        >
+        <a href="#formacion" data-section="menu" data-value="item4"
+          >Formación</a
+        >
+        <a href="#proyectos" data-section="menu" data-value="item5"
+          >Proyectos</a
+        >
+        <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+       
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section class="home" id="home">
+        <picture class="container_image-home" data-aos="zoom-in">
+          <img
+            class="image_home"
+            src="./assets/images/image-home.png"
+            alt="Ilustración mujer y plantas"
+          />
+        </picture>
+
+        <div class="home_info">
+          <div class="container_text-info">
+            <p class="home_text-1" data-section="home" data-value="home_text-1">
+              Hola! Soy
+            </p>
+            <p class="home_text-2">Lis Roa</p>
+          </div>
+
+          <div>
+            <p
+              class="home_text-3 text-type"
+              data-section="home"
+              data-value="home_text-3"
+            >
+              Desarrolladora web Front-End
+            </p>
+          </div>
+
+          <div class="container_parrafo-info">
+            <p data-section="home" data-value="parrafo-info">
+             🖥️ Full-Stack Developer: Me enfoco en crear experiencias digitales increibles. <br/>
+             💻 Amante del código: Me encanta escribir código limpio y eficiente.<br/>
+             🎨 Diseñadora web: Me apasiona el diseño centrado en el usuario y la estética moderna.<br/>
+            </p>
+          </div>
+
+          <div class="container_button">
+            <a
+              href="https://drive.google.com/file/d/1Y6i2RmglqP_dlZdmkJTyNIeZTtjdSr7m/view?usp=sharing"
+              target="_blank"
+            >
+              <button
+                class="cv_button"
+                data-section="home"
+                data-value="cv_button"
+              >
+                Descargar CV
+              </button>
+            </a>
+            <a href="#contacto">
+              <button
+                class="contact_button"
+                data-section="home"
+                data-value="contact_button"
+              >
+                Contacto
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="links">
+          <a href="https://www.linkedin.com/in/lis-roa/" target="_blank">
+            <img
+              src="./assets/images/icon-linkedin.png"
+              alt="LinkedIn"
+              class="icon-linkedin"
+            />
+          </a>
+          <a href="https://github.com/lisroa" target="_blank">
+            <img
+              src="./assets/images/icon-github.png"
+              alt="GitHub"
+              class="icon-github"
+            />
+          </a>
+          <a href="https://www.instagram.com/lisroa_x/" target="_blank">
+            <img
+              src="./assets/images/icon-instagram.png"
+              alt="Instagram"
+              class="icon-instagram"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- Sobre mí -->
+      <section class="sobreMi" id="sobreMi">
+        <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">
+          Sobre mí
+        </h1>
+
+        <div class="container_content-sobreMi" data-aos="fade-right">
+          <div class="container_texto-sobreMi">
+            <span class="title_sobreMi">Lis Gimena Roa</span>
+            <span
+              class="texto_sobreMi"
+              data-section="sobre-mi"
+              data-value="texto_sobreMi"
+              >
+            🌐 Desarrollo Web Apps con Next.js, Redux, y Tailwind. Apps Mobile con React Native. <br/>
+            🛠️ Desarrollo backend APIs con NestJS, PostgreSQL, Sequelize o Prisma.<br/>
+            🔧 Me preocupo por la performance y la accesibilidad de mis apps. Garantizo una experiencia de usuario excepcional (Lighthouse score!).<br/>
+            📚 Siempre estoy aprendiendo nuevas tecnologías y técnicas para mejorar mis habilidades.<br/>
+            🍰 Cuando no estoy programando, mi pasatiempo favorito es la cocina.<br/>
+                  ¡Gracias por visitar mi portafolio!✨       
+              </span
+            >
+          </div>
+
+          <picture class="container_image-sobreMi">
+            <img
+              class="image_sobreMi"
+              src="./assets/images/image-sobreMi.png"
+              alt="Ilustración mujer y café"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section class="habilidades" id="habilidades">
+        <h1 data-section="habilidades" data-value="title" data-aos="fade-up">
+          Habilidades
+        </h1>
+
+        <img
+          src="./assets/images/puntos.png"
+          alt="Decoración puntos"
+          class="puntos1-habilidades"
+        />
+        <img
+          src="./assets/images/puntos.png"
+          alt="Decoración puntos"
+          class="puntos2-habilidades"
+        />
+
+        <div class="cards_container--habilidades">
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
+            <p>HTML 5</p>
+          </div>
+
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
+            <p>CSS 3</p>
+          </div>
+
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="900"
+          >
+            <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
+            <img src="https://skillicons.dev/icons?i=react" alt="React" />
+            <p>React</p>
+          </div>
+
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
+            <img src="https://skillicons.dev/icons?i=react" alt="React Native" />
+            <p>React Native</p>
+          </div>
+
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            <img src="https://skillicons.dev/icons?i=nextjs" alt="Nextjs" />
+            <p>Next JS</p>
+          </div>
+
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="900"
+          >
+            <img src="https://skillicons.dev/icons?i=flutter"alt="flutter" />
+            <p>Flutter</p>
+          </div>
+
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
+            <img src="https://skillicons.dev/icons?i=nodejs" alt="Node JS" />
+            <p>Node JS</p>
+          </div>
+           <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
+            <img src="https://skillicons.dev/icons?i=materialui" alt="Material UI" />
+            <p>Material UI</p>
+          </div>
+           <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
+            <img src="https://skillicons.dev/icons?i=tailwind"alt="Tailwind" />
+            <p>Tailwind</p>
+          </div>
+           <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
+            <img src="https://skillicons.dev/icons?i=git"alt="Git" />
+            <p>Git</p>
+          </div>
+          <div
+            class="cards--habilidades"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+          >
+            <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+            <p>GitHub</p>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Formación -->
+      <section class="formacion" id="formacion">
+        <h1 data-section="formacion" data-value="title" data-aos="fade-up">
+          Formación
+        </h1>
+
+        <div class="cards_container--formacion">
+          <div
+            class="cards--formacion"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <img
+              class="logo-unal"
+              src="./assets/images/logo-uade.png"
+              alt="Logo - Universidad Argentina De la Empresa"
+            />
+            <div class="container_texto--formacion">
+              <p data-section="formacion" data-value="formacion1">
+                Tecnicatura en desarrollo de software
+              </p>
+              <p data-section="formacion" data-value="tiempo-formacion1">
+                En curso
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section class="proyectos" id="proyectos">
+        <h1 data-section="proyectos" data-value="title" data-aos="fade-up">
+          Proyectos
+        </h1>
+
+        <img
+          src="./assets/images/puntos.png"
+          alt="Decoración puntos"
+          class="puntos1-proyectos"
+        />
+        <img
+          src="./assets/images/puntos.png"
+          alt="Decoración puntos"
+          class="puntos2-proyectos"
+        />
+
+        <div class="cards_container--proyectos">
+          <div
+            class="cards--proyectos card_JuegoAhorcado"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/cap-littleshop.jpg"
+                alt="Proyecto: LittleShop"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto1">
+                LittleShop
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto1">
+                LittleShop es un E-commerce creado en React, que te permite añadir productos al carrito, ver el total de tu compra y ver un historial de ordenes.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <a
+                href="https://thelittleshop.netlify.app/"
+                target="_blank"
+              >
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a>
+
+              <a
+                href="https://github.com/lisroa/E-commerce"
+                target="_blank"
+              >
+                <button class="btn_repo">
+                  <img
+                    src="./assets/images/icon-githubProyecto.png"
+                    alt="Repositorio de github"
+                  />REPO
+                </button>
+              </a>
+            </div>
+          </div>
+<div
+            class="cards--proyectos card_encriptador"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/cap-pokemons.jpg"
+                alt="Proyecto: Pokemons"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto3">
+                PokeGuesser
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto3">
+                Adivina que pokemon es y suma puntos en este divertido juego.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <a
+                href="https://pokeguesser.netlify.app/"
+                target="_blank"
+              >
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a>
+
+              <a
+                href="https://github.com/lisroa/Pokemon-Game"
+                target="_blank"
+              >
+                <button class="btn_repo">
+                  <img
+                    src="./assets/images/icon-githubProyecto.png"
+                    alt="Repositorio de github"
+                  />REPO
+                </button>
+              </a>
+            </div>
+          </div>
+          
+          <div
+            class="cards--proyectos card_encriptador"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/cap-cerveceria.jpg"
+                alt="Proyecto: Cervecerias"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto3">
+                The Breweries App
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto3">
+                Una app donde puedes buscar cervecerias filtrando por cuidad, por nombre o por tipo de cerveza.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <a
+                href="https://thebreweriesapp.netlify.app/"
+                target="_blank"
+              >
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a>
+
+              <a
+                href="https://github.com/lisroa/Breweries-App"
+                target="_blank"
+              >
+                <button class="btn_repo">
+                  <img
+                    src="./assets/images/icon-githubProyecto.png"
+                    alt="Repositorio de github"
+                  />REPO
+                </button>
+              </a>
+            </div>
+          </div>
+          
+          <div
+            class="cards--proyectos card_encriptador"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/cap-clima.jpg"
+                alt="Proyecto: Clima"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto3">
+                The Weather App
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto3">
+                Una App que te permite ver el clima de cualquier ciudad del mundo.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <a
+                href="https://climasync.netlify.app/"
+                target="_blank"
+              >
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a>
+
+              <a
+                href="https://github.com/lisroa/weatherApp"
+                target="_blank"
+              >
+                <button class="btn_repo">
+                  <img
+                    src="./assets/images/icon-githubProyecto.png"
+                    alt="Repositorio de github"
+                  />REPO
+                </button>
+              </a>
+            </div>
+          </div>
+          
+          <div
+            class="cards--proyectos card_encriptador"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/cap-todolist.jpg"
+                alt="Proyecto: To-Do-List"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto3">
+                To-Do-List
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto3">
+                Una aplicacion facil de usar que te permite realizar un seguimiento de tus tareas sin esfuerzo, marcarlas como completadas y ordenarlas por estado para una organizacion sencilla.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <a
+                href="https://seemytasks.netlify.app/"
+                target="_blank"
+              >
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a>
+
+              <a
+                href="https://github.com/lisroa/To-Do-List"
+                target="_blank"
+              >
+                <button class="btn_repo">
+                  <img
+                    src="./assets/images/icon-githubProyecto.png"
+                    alt="Repositorio de github"
+                  />REPO
+                </button>
+              </a>
+            </div>
+          </div>
+          
+          <div
+            class="cards--proyectos card_encriptador"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/cap-geoquizz.jpg"
+                alt="Proyecto: Geo-quizz"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto3">
+                GeoQuizz
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto3">
+                Pon a prueba tus conocimientos de geografia con este juego. Responde preguntas aleatorias sobre geografia y descubre tu puntaje final.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <a
+                href="https://geoquizz.netlify.app/"
+                target="_blank"
+              >
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a>
+
+              <a
+                href="https://github.com/lisroa/Geo-quiz"
+                target="_blank"
+              >
+                <button class="btn_repo">
+                  <img
+                    src="./assets/images/icon-githubProyecto.png"
+                    alt="Repositorio de github"
+                  />REPO
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section class="contacto" id="contacto">
+        <h1 data-section="contacto" data-value="title" data-aos="fade-up">
+          Contacto
+        </h1>
+         <p data-section="home" data-value="parrafo-info">
+            ✉️ lisgimenaroa@gmail.com <br/>📞 3625-143030
+            </p>
+          
+      
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contianer--footer">
+          <div
+          class="container_box--contacto"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <div class="container_redes-footer">
+          <a
+            href="https://www.linkedin.com/in/lis-roa/"
+            target="_blank"
+          >
+            <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/lisroa" target="_blank">
+            <img src="./assets/images/icon-github.png" alt="GitHub" />
+          </a>
+          </a>
+          <a
+            href="https://www.instagram.com/lisroa_x/"
+            target="_blank"
+          >
+            <img src="./assets/images/icon-instagram.png" alt="Instagram">
+          </a>
+        </div>
+          </div>
+       
+        <div class="container_text--footer">
+          <span>Copyright © | Coded with</span>
+          <img src="./assets/images/icon-corazon.png" alt="Corazón" />
+          <span>by</span>
+          <span>Lis Roa</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="go-top-container">
+      <div class="go-top-button">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
